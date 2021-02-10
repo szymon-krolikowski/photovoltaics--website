@@ -14,8 +14,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 .header {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,6 +169,37 @@ html {
   .header__heading {
     font-size: 4.8rem;
     font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header__mainImage {
+    width: 500px;
+    height: 500px;
+  }
+  .header__secoundImage {
+    top: 60%;
+    left: 50%;
+    width: 270px;
+    height: 270px;
+  }
+  .header__topCircle {
+    top: 10%;
+    left: 50%;
+  }
+  .header__bottomCircle {
+    width: 130px;
+    height: 130px;
+  }
+  .header__secoundArticle {
+    width: 50%;
+    padding: 5rem 2rem;
+  }
+  .header__heading {
+    width: 50%;
+  }
+  .header__paragraph {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=main.css.map */
