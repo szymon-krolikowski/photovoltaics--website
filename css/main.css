@@ -138,14 +138,14 @@ html {
   margin: 2rem 0rem;
 }
 
-.swiper-button-next {
+.header__buttonNext {
   position: absolute;
   top: 66% !important;
   left: 85% !important;
   color: green !important;
 }
 
-.swiper-button-prev {
+.header__buttonPrev {
   position: absolute;
   top: 66% !important;
   left: 70% !important;
@@ -184,6 +184,14 @@ html {
     font-size: 4.8rem;
     font-weight: 400;
   }
+  .header__buttonNext {
+    top: 76% !important;
+    left: 90% !important;
+  }
+  .header__buttonPrev {
+    top: 76% !important;
+    left: 80% !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -214,6 +222,14 @@ html {
   }
   .header__paragraph {
     width: 80%;
+  }
+  .header__buttonNext {
+    top: 76% !important;
+    left: 80% !important;
+  }
+  .header__buttonPrev {
+    top: 76% !important;
+    left: 75% !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
