@@ -430,5 +430,32 @@ html {
   .aboutUs__paragraph {
     width: 90%;
   }
+  .informationIcon {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .informationIcon__firstArticle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .informationIcon__secoundArticle {
+    width: 110%;
+  }
+  .informationIcon__thirdArticle {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .informationIcon__box--right {
+    text-align: right;
+  }
+  .informationIcon__box--left {
+    text-align: left;
+  }
 }
 /*# sourceMappingURL=main.css.map */
