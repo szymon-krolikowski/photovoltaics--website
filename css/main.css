@@ -300,5 +300,34 @@ html {
     top: 76% !important;
     left: 75% !important;
   }
+  .aboutUs__firstArticle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .aboutUs__image {
+    width: 70%;
+  }
+  .aboutUs__circle {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    border: 80px solid green;
+  }
+  .aboutUs__headingThree {
+    width: 90%;
+  }
+  .aboutUs__paragraph {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
