@@ -193,6 +193,69 @@ html {
   line-height: 1.6;
 }
 
+.informationIcon {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 0rem;
+}
+
+.informationIcon__firstArticle, .informationIcon__thirdArticle {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 0rem 2rem;
+}
+
+.informationIcon__secoundArticle {
+  margin: 5rem 0rem;
+}
+
+.informationIcon__box {
+  margin: 3rem 0rem;
+}
+
+.informationIcon__paragraphLarge {
+  font-size: 2.4rem;
+  padding: 2rem 0rem;
+}
+
+.informationIcon__paragraph {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.informationIcon__iconBig {
+  width: 100%;
+  padding: 0rem 2rem;
+}
+
 @media screen and (min-width: 765px) {
   .header {
     -webkit-box-orient: horizontal;
