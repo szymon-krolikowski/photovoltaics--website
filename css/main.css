@@ -307,6 +307,87 @@ html {
   line-height: 1.6;
 }
 
+.calculator {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 2rem;
+}
+
+.calculator__paragraph {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  min-width: 60vw;
+  max-width: 70vw;
+}
+
+.calculator__heading {
+  font-size: 2.6rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.calculator__rangeInput {
+  width: 80vw;
+  margin: 3rem;
+}
+
+.calculator__headingThree {
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.calculator__score {
+  width: 100vw;
+  padding: 0rem 2rem;
+}
+
+.calculator__scoreTop, .calculator__scoreBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.calculator__sizeInstalation, .calculator__energyProduction, .calculator__expenseInstalation, .calculator__grant {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 2rem 0rem;
+}
+
 @media screen and (min-width: 765px) {
   .header {
     -webkit-box-orient: horizontal;
