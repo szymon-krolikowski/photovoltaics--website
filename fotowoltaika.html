@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/rangeinput.css">
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
@@ -22,7 +23,46 @@
                 <p class="header__paragraph">Proponowane przez nas rozwiązanie to idealny sposób na to, aby ograniczyć dostawy energii elektrycznej na wiele lat, i jednocześnie w znacznym stopniu zmniejszyć rachunki za prąd. Specjalizujemy się w montażu paneli na konstrukcjach dachowych oraz naziemnych. Naszym klientom pomagamy również uzyskac dotację oraz dofinansowanie na instalazje OZE.</p>
             </article>
         </section>
-        
+        <section class="calculator">
+            <h2 class="calculator__heading">Kalkulator zwrotu z inwestycji w panele fotowoltaiczne</h2>
+            <p class="calculator__paragraph">Miesięczny rachunek za prąd</p>
+            <input class="calculator__rangeInput" type="range" min="0" max="1000" value="200">
+            <h3 class="calculator__headingThree">Najlepiej dopasowana instalacja</h3>
+            <div class="calculator__score">
+                <div class="calculator__scoreTop">
+                    <div class="calculator__sizeInstalation">
+                        <img class="calculator__icon" src="/image/icon-solarPanel.png" alt="">
+                        <div class="calculator__boxText">
+                            <p class="calculator__paragraph">Wielkość instalacji</p>
+                            <p class="calculator__paragraph">5.67 kWp</p>
+                        </div>
+                    </div>
+                    <div class="calculator__energyProduction">
+                        <img class="calculator__icon" style="width:59px;height:59px" src="/image/icon-bulb.png" alt="">
+                        <div class="calculator__boxText">
+                            <p class="calculator__paragraph">W ciągu roku wyprodukujesz</p>
+                            <p class="calculator__paragraph">5 443 kWh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculator__scoreBottom">
+                    <div class="calculator__expenseInstalation">
+                        <img class="calculator__icon" style="width:59px;height:59px" src="/image/icon-calculator.png" alt="">
+                        <div class="calculator__boxText">
+                            <p class="calculator__paragraph">Koszt brutto instalacji od</p>
+                            <p class="calculator__paragraph">27 868 zł</p>
+                        </div>
+                    </div>
+                    <div class="calculator__grant">
+                        <img class="calculator__icon" style="width:59px;height:59px" src="/image/icon-solarMoney.png" alt="">
+                        <div class="calculator__boxText">
+                            <p class="calculator__paragraph">lub od 22 868 zł</p>
+                            <p class="calculator__paragraph">z dotacją "Mój Prąd"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
