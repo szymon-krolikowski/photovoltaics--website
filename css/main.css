@@ -796,6 +796,9 @@ html {
     min-width: auto;
     text-align: left;
   }
+  .calculator__rangeInput {
+    width: 40vw;
+  }
   .calculator__icon--summary {
     margin-right: 2rem;
     margin-left: 2rem;
