@@ -384,7 +384,7 @@ html {
           justify-content: center;
 }
 
-.calculator__sizeInstalation, .calculator__energyProduction, .calculator__expenseInstalation, .calculator__grant {
+.calculator__sizeInstalation, .calculator__energyProduction, .calculator__expenseInstalation, .calculator__grant, .calculator__currentBill, .calculator__installationBill, .calculator__savings {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -574,6 +574,39 @@ html {
   }
   .gallery__imageBox--seventh {
     display: none;
+  }
+  .calculator__paragraph--left {
+    min-width: 35vw;
+    max-width: 35vw;
+    margin-left: 0rem;
+  }
+  .calculator__rangeInput {
+    width: 60vw;
+  }
+  .calculator__scoreTop, .calculator__scoreBottom {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .calculator__icon--mediumOrderTwo {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 4rem;
+    margin-right: 2rem;
+  }
+  .calculator__icon--mediumOrderOne {
+    margin-right: 4rem;
+    margin-left: 2rem;
+  }
+  .calculator__paragraph--mediumTextRight {
+    text-align: right;
+  }
+  .calculator__paragraph--mediumCenter {
+    max-width: 20vw;
+    min-width: 20vw;
+    text-align: center;
   }
 }
 
