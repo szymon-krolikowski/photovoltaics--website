@@ -284,6 +284,7 @@ html {
 }
 
 .calculator {
+  padding: 5rem 2rem;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -295,21 +296,39 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 5rem 2rem;
 }
 
-.calculator__installationSize {
+.calculator__firstArticle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.calculator__headingThree, .calculator__paragraph--center, .calculator__headingFour {
+  text-align: center;
+}
+
+.calculator__input {
+  width: 80vw;
+  margin: 3rem auto;
+}
+
+.calculator__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
   padding: 2rem 0rem;
 }
 
-.calculator__textBox {
+.calculator__image {
+  width: 20%;
+}
+
+.calculator__text {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,19 +339,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 3rem;
-}
-
-.calculator__headingFour {
-  text-align: center;
-}
-
-.calculator__headingThree {
-  text-align: center;
-}
-
-.calculator__paragraph--center {
-  text-align: center;
+  margin-left: 2rem;
 }
 
 .calculator__icon {
@@ -340,9 +347,9 @@ html {
   height: 69px;
 }
 
-.calculator__span {
-  font-weight: bold;
+.calculator__spanGreen {
   color: #008000;
+  font-weight: bold;
 }
 
 .paragraph {
@@ -614,6 +621,71 @@ html {
     margin-top: 5rem;
     max-width: 100%;
   }
+  .calculator {
+    padding: 5rem 2rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .calculator__firstArticle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .calculator__box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    padding: 2rem 2rem;
+  }
+  .calculator__image {
+    width: 20%;
+  }
+  .calculator__input {
+    width: 65vw;
+  }
+  .calculator__text {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 2rem;
+  }
+  .calculator__icon {
+    width: 69px;
+    height: 69px;
+  }
+  .calculator__image--orderTwo {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .calculator__text-right {
+    text-align: right;
+    margin-right: 2rem;
+  }
+  .calculator__icon {
+    width: 76px;
+    height: 76px;
+  }
 }
 
 .paragraph {
@@ -872,6 +944,12 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .calculator__input {
+    width: 40vw;
+  }
+  .calculator__image--orderTwo {
+    margin-left: 5rem;
   }
 }
 /*# sourceMappingURL=mainFotowoltaika.css.map */
