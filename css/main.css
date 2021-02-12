@@ -1,4 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.paragraph {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.headingOne {
+  font-size: 3.2rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.headingTwo {
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.headingThree {
+  font-size: 2.7rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.headingFour {
+  font-size: 2.2rem;
+  padding: 2rem 0rem;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+  .headingOne {
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingTwo {
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingThree {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingFour {
+    font-size: 2.3rem;
+    padding: 2rem 0rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .paragraph {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+  .headingOne {
+    font-size: 4.6rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingTwo {
+    font-size: 3.4rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingThree {
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingFour {
+    font-size: 2.5rem;
+    padding: 2rem 0rem;
+  }
+}
+
 *,
 ::after,
 ::before {
@@ -116,17 +196,6 @@ html {
   text-transform: uppercase;
 }
 
-.header__heading {
-  font-size: 2.6rem;
-  font-weight: 500;
-  padding: 2rem 0rem;
-}
-
-.header__paragraph {
-  font-size: 1.6rem;
-  line-height: 1.6;
-}
-
 .header__button {
   font-size: 1.6rem;
   font-weight: 700;
@@ -183,16 +252,6 @@ html {
   padding: 0rem 2rem;
 }
 
-.aboutUs__headingThree {
-  font-size: 3rem;
-  padding: 3rem 0rem;
-}
-
-.aboutUs__paragraph {
-  font-size: 1.6rem;
-  line-height: 1.6;
-}
-
 .informationIcon {
   width: 100%;
   display: -webkit-box;
@@ -246,11 +305,6 @@ html {
   padding: 2rem 0rem;
 }
 
-.informationIcon__paragraph {
-  font-size: 1.6rem;
-  line-height: 1.6;
-}
-
 .informationIcon__iconBig {
   width: 100%;
   padding: 0rem 2rem;
@@ -276,18 +330,6 @@ html {
   padding: 5rem 2rem;
 }
 
-.information__paragraph {
-  font-size: 1.6rem;
-  line-height: 1.6;
-  text-align: center;
-}
-
-.information__heading {
-  font-size: 2.6rem;
-  font-weight: 500;
-  padding: 2rem 0rem;
-}
-
 .gallery {
   width: 100%;
   display: -ms-grid;
@@ -301,10 +343,84 @@ html {
   height: 100%;
 }
 
-.gallery__paragraph {
-  text-align: center;
-  font-size: 1.6rem;
-  line-height: 1.6;
+.paragraph {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.headingOne {
+  font-size: 3.2rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.headingTwo {
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.headingThree {
+  font-size: 2.7rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.headingFour {
+  font-size: 2.2rem;
+  padding: 2rem 0rem;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+  .headingOne {
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingTwo {
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingThree {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingFour {
+    font-size: 2.3rem;
+    padding: 2rem 0rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .paragraph {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+  .headingOne {
+    font-size: 4.6rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingTwo {
+    font-size: 3.4rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingThree {
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingFour {
+    font-size: 2.5rem;
+    padding: 2rem 0rem;
+  }
 }
 
 @media screen and (min-width: 765px) {
@@ -334,10 +450,6 @@ html {
   }
   .header__secoundArticle {
     width: 50%;
-  }
-  .header__heading {
-    font-size: 4.8rem;
-    font-weight: 400;
   }
   .header__buttonNext {
     top: 76% !important;
@@ -371,9 +483,6 @@ html {
   .aboutUs__secoundArticle {
     width: 50%;
     padding: 0rem 2rem;
-  }
-  .aboutUs__headingThree {
-    padding: 0rem 0rem 3rem 0rem;
   }
   .informationIcon {
     -webkit-box-orient: vertical;
@@ -416,14 +525,6 @@ html {
   .information {
     position: relative;
     padding: 5rem 10rem;
-  }
-  .information__paragraph {
-    font-size: 1.6rem;
-    line-height: 1.6;
-    text-align: center;
-  }
-  .information__heading {
-    font-size: 4.8rem;
   }
   .gallery {
     width: 100%;
@@ -482,39 +583,6 @@ html {
   .gallery__imageBox--seventh {
     display: none;
   }
-  .calculator__paragraph--left {
-    min-width: 35vw;
-    max-width: 35vw;
-    margin-left: 0rem;
-  }
-  .calculator__rangeInput {
-    width: 60vw;
-  }
-  .calculator__scoreTop, .calculator__scoreBottom, .calculator__scoreSummary {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .calculator__icon--mediumOrderTwo {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-    margin-left: 4rem;
-    margin-right: 2rem;
-  }
-  .calculator__icon--mediumOrderOne {
-    margin-right: 4rem;
-    margin-left: 2rem;
-  }
-  .calculator__paragraph--mediumTextRight {
-    text-align: right;
-  }
-  .calculator__paragraph--mediumCenter {
-    max-width: 20vw;
-    min-width: 20vw;
-    text-align: center;
-  }
   .greenSide {
     width: 100%;
     display: -webkit-box;
@@ -534,15 +602,6 @@ html {
             align-items: center;
     padding: 5rem 2rem;
   }
-  .greenSide__paragraph {
-    font-size: 1.6rem;
-    line-height: 1.6;
-  }
-  .greenSide__heading {
-    font-size: 2.6rem;
-    font-weight: 500;
-    padding: 2rem 0rem;
-  }
   .greenSide__articleSecound, .greenSide__articleFirst {
     width: 50%;
   }
@@ -552,6 +611,86 @@ html {
   .greenSide__image {
     margin-top: 5rem;
     max-width: 100%;
+  }
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.headingOne {
+  font-size: 3.2rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.headingTwo {
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.headingThree {
+  font-size: 2.7rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.headingFour {
+  font-size: 2.2rem;
+  padding: 2rem 0rem;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+  .headingOne {
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingTwo {
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingThree {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingFour {
+    font-size: 2.3rem;
+    padding: 2rem 0rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .paragraph {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+  .headingOne {
+    font-size: 4.6rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingTwo {
+    font-size: 3.4rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingThree {
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .headingFour {
+    font-size: 2.5rem;
+    padding: 2rem 0rem;
   }
 }
 
@@ -731,22 +870,6 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
-  .calculator__scoreSummary {
-    width: 55vw;
-    margin: 0 auto;
-  }
-  .calculator__paragraph--mediumCenter {
-    max-width: auto;
-    min-width: auto;
-    text-align: left;
-  }
-  .calculator__rangeInput {
-    width: 40vw;
-  }
-  .calculator__icon--summary {
-    margin-right: 2rem;
-    margin-left: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
