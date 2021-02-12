@@ -283,6 +283,68 @@ html {
   padding: 0rem 2rem;
 }
 
+.calculator {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5rem 2rem;
+}
+
+.calculator__installationSize {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2rem 0rem;
+}
+
+.calculator__textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 3rem;
+}
+
+.calculator__headingFour {
+  text-align: center;
+}
+
+.calculator__headingThree {
+  text-align: center;
+}
+
+.calculator__paragraph--center {
+  text-align: center;
+}
+
+.calculator__icon {
+  width: 69px;
+  height: 69px;
+}
+
+.calculator__span {
+  font-weight: bold;
+  color: #008000;
+}
+
 .paragraph {
   font-size: 1.8rem;
   line-height: 1.8;
