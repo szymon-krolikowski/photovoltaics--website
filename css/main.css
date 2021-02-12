@@ -371,7 +371,7 @@ html {
   padding: 0rem 2rem;
 }
 
-.calculator__scoreTop, .calculator__scoreBottom {
+.calculator__scoreTop, .calculator__scoreBottom, .calculator__scoreSummary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -583,7 +583,7 @@ html {
   .calculator__rangeInput {
     width: 60vw;
   }
-  .calculator__scoreTop, .calculator__scoreBottom {
+  .calculator__scoreTop, .calculator__scoreBottom, .calculator__scoreSummary {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -786,6 +786,19 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .calculator__scoreSummary {
+    width: 55vw;
+    margin: 0 auto;
+  }
+  .calculator__paragraph--mediumCenter {
+    max-width: auto;
+    min-width: auto;
+    text-align: left;
+  }
+  .calculator__icon--summary {
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
