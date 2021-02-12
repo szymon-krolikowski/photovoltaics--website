@@ -331,8 +331,19 @@ html {
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
+}
+
+.calculator__paragraph--left {
+  font-size: 1.6rem;
+  line-height: 1.6;
   min-width: 60vw;
   max-width: 70vw;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.calculator__span {
+  font-weight: bold;
 }
 
 .calculator__heading {
@@ -345,6 +356,7 @@ html {
 .calculator__rangeInput {
   width: 80vw;
   margin: 3rem;
+  outline: none;
 }
 
 .calculator__headingThree {
