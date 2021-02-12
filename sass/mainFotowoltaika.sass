@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+@import "./_extend"
+
+*,
+::after,
+::before
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html
+    font-size: 62.5%
+    font-family: 'Roboto', sans-serif
+    scroll-behavior: smooth
+
+.wrapper 
+    max-width: 1300px
+    margin: 0 auto
+    overflow: hidden
+
+.header 
+    min-height: 100vh
+    @extend %displayFlexColumn
+    
+    &__firstArticle
+        position: relative
+        min-height: 100vh
+        @extend %displayFlexColumn
+        
+    &__mainImage
+        width: 340px
+        height: 340px
+        border-radius: 50%
+        background-image: url("/image/header-photovoltaics-main.png")
+        background-size: cover
+        background-position: center
+        z-index: 1
+
+    &__secoundImage
+        position: absolute
+        top: 60%
+        left: 40%
+        width: 210px
+        height: 210px
+        border-radius: 50%
+        border: 15px solid $greenTwo
+        background-image: url("/image/header-photovoltaics-secound.jpg")
+        background-size: cover
+        background-position: center
+        box-shadow: 5px 5px 18px 1px rgba(0,0,0,0.4)
+        z-index: 2
+
+    &__topCircle
+        position: absolute
+        top: 15%
+        left: 30%
+        width: 250px
+        height: 250px
+        border-radius: 50%
+        border: 40px solid $greenTwo
+
+    &__bottomCircle
+        position: absolute
+        top: 80%
+        left: 10%
+        width: 100px
+        height: 100px
+        border-radius: 50%
+        background-color: $greenTwo
+
+    &__secoundArticle
+        width: 100%
+        padding: 5rem 2rem
+
+    &__paragraphTop
+        font-size: 2rem
+        text-transform: uppercase
+
+    &__heading
+        @extend %headingOne
+
+    &__paragraph
+        @extend %paragraph
+
+.informationIcon
+    padding: 5rem 0rem
+    @extend %displayFlexColumn
+
+    &__firstArticle,
+    &__thirdArticle
+        padding: 0rem 2rem
+        @extend %displayFlexColumn
+
+    &__secoundArticle
+        margin: 5rem 0rem
+
+    &__box
+        margin: 3rem 0rem
+
+    &__headingFour
+        font-weight: normal
+        @extend %headingFour
+
+    &__paragraph
+        @extend %paragraph
+
+    &__iconBig
+        width: 100%
+        padding: 0rem 2rem
+
+.calculator
+    padding: 5rem 2rem
+    @extend %displayFlexColumn
+
+    &__paragraph
+        text-align: center
+        @extend %paragraph
+
+    &__paragraph--left
+        min-width: 60vw
+        max-width: 70vw
+        text-align: left
+        margin-left: 2rem
+        @extend %paragraph
+
+    &__span
+        font-weight: bold
+        color: $greenThree
+
+        &--red
+            color: $redOne
+        
+    &__heading
+        text-align: center
+        @extend %headingTwo
+        
+    &__rangeInput
+        width: 80vw
+        margin: 3rem
+        outline: none
+
+    &__headingThree
+        text-align: center
+        @extend %headingThree
+
+    &__score
+        width: 100vw
+        padding: 0rem 2rem
+
+    &__scoreTop,
+    &__scoreBottom,
+    &__scoreSummary
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+    &__sizeInstalation,
+    &__energyProduction,
+    &__expenseInstalation,
+    &__grant,
+    &__currentBill,
+    &__installationBill,
+    &__savings
+        padding: 2rem 2rem
+        @extend %displayFlexRow
+
+.greenSide
+    padding: 5rem 2rem
+    @extend %displayFlexColumn
+
+    &__paragraph
+        @extend %paragraph
+        
+    &__heading
+        @extend %headingTwo
+
+    &__image
+        margin-top: 5rem
+        max-width: 100vw
+
+    &__spanGreen
+        color: $greenThree
+
+@import "./_small"
+@import "./_medium"
+// @import "./_large"

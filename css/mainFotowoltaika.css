@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.header__paragraph, .informationIcon__paragraph, .calculator__paragraph, .calculator__paragraph--left, .greenSide__paragraph {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.header, .header__firstArticle, .informationIcon, .informationIcon__firstArticle, .informationIcon__thirdArticle, .calculator, .greenSide {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculator__sizeInstalation, .calculator__energyProduction, .calculator__expenseInstalation, .calculator__grant, .calculator__currentBill, .calculator__installationBill, .calculator__savings {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__heading {
+  font-size: 3.2rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.calculator__heading, .greenSide__heading {
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.calculator__headingThree {
+  font-size: 2.7rem;
+  font-weight: 500;
+  padding: 2rem 0rem;
+}
+
+.informationIcon__headingFour {
+  font-size: 2.5rem;
+  padding: 2rem 0rem;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+  min-height: 100vh;
+}
+
+.header__firstArticle {
+  position: relative;
+  min-height: 100vh;
+}
+
+.header__mainImage {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background-image: url("/image/header-photovoltaics-main.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.header__secoundImage {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 15px solid #38B000;
+  background-image: url("/image/header-photovoltaics-secound.jpg");
+  background-size: cover;
+  background-position: center;
+  -webkit-box-shadow: 5px 5px 18px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 18px 1px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.header__topCircle {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 40px solid #38B000;
+}
+
+.header__bottomCircle {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #38B000;
+}
+
+.header__secoundArticle {
+  width: 100%;
+  padding: 5rem 2rem;
+}
+
+.header__paragraphTop {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.informationIcon {
+  padding: 5rem 0rem;
+}
+
+.informationIcon__firstArticle, .informationIcon__thirdArticle {
+  padding: 0rem 2rem;
+}
+
+.informationIcon__secoundArticle {
+  margin: 5rem 0rem;
+}
+
+.informationIcon__box {
+  margin: 3rem 0rem;
+}
+
+.informationIcon__headingFour {
+  font-weight: normal;
+}
+
+.informationIcon__iconBig {
+  width: 100%;
+  padding: 0rem 2rem;
+}
+
+.calculator {
+  padding: 5rem 2rem;
+}
+
+.calculator__paragraph {
+  text-align: center;
+}
+
+.calculator__paragraph--left {
+  min-width: 60vw;
+  max-width: 70vw;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.calculator__span {
+  font-weight: bold;
+  color: #008000;
+}
+
+.calculator__span--red {
+  color: #C00505;
+}
+
+.calculator__heading {
+  text-align: center;
+}
+
+.calculator__rangeInput {
+  width: 80vw;
+  margin: 3rem;
+  outline: none;
+}
+
+.calculator__headingThree {
+  text-align: center;
+}
+
+.calculator__score {
+  width: 100vw;
+  padding: 0rem 2rem;
+}
+
+.calculator__scoreTop, .calculator__scoreBottom, .calculator__scoreSummary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.calculator__sizeInstalation, .calculator__energyProduction, .calculator__expenseInstalation, .calculator__grant, .calculator__currentBill, .calculator__installationBill, .calculator__savings {
+  padding: 2rem 2rem;
+}
+
+.greenSide {
+  padding: 5rem 2rem;
+}
+
+.greenSide__image {
+  margin-top: 5rem;
+  max-width: 100vw;
+}
+
+.greenSide__spanGreen {
+  color: #008000;
+}
+
+@media screen and (min-width: 765px) {
+  .header {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .header__firstArticle {
+    width: 50%;
+  }
+  .header__mainImage {
+    width: 360px;
+    height: 360px;
+  }
+  .header__secoundImage {
+    width: 230px;
+    height: 230px;
+  }
+  .header__topCircle {
+    top: 25%;
+  }
+  .header__bottomCircle {
+    width: 110px;
+    height: 110px;
+  }
+  .header__secoundArticle {
+    width: 50%;
+  }
+  .header__heading {
+    font-size: 4.8rem;
+    font-weight: 400;
+  }
+  .header__buttonNext {
+    top: 76% !important;
+    left: 90% !important;
+  }
+  .header__buttonPrev {
+    top: 76% !important;
+    left: 80% !important;
+  }
+  .aboutUs {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .aboutUs__firstArticle {
+    position: relative;
+    width: 50%;
+    padding: 0rem 2rem;
+  }
+  .aboutUs__circle {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 50px solid green;
+    z-index: -1;
+  }
+  .aboutUs__secoundArticle {
+    width: 50%;
+    padding: 0rem 2rem;
+  }
+  .aboutUs__headingThree {
+    padding: 0rem 0rem 3rem 0rem;
+  }
+  .informationIcon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .informationIcon__firstArticle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .informationIcon__secoundArticle {
+    width: 60%;
+  }
+  .informationIcon__thirdArticle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .informationIcon__box {
+    text-align: center;
+  }
+  .information {
+    position: relative;
+    padding: 5rem 10rem;
+  }
+  .information__paragraph {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  .information__heading {
+    font-size: 4.8rem;
+  }
+  .gallery {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    -ms-grid-columns: (auto)[10];
+        grid-template-columns: repeat(10, auto);
+    grid-template-row: repeat(10, auto);
+    padding: 0rem 2rem;
+  }
+  .gallery__imageBox--first {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-column: 1 / span 4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / span 1;
+  }
+  .gallery__imageBox--secound {
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 6;
+    grid-column: 5 / span 6;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / span 1;
+  }
+  .gallery__imageBox--third {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 6;
+    grid-column: 1 / span 6;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / span 1;
+  }
+  .gallery__imageBox--fourth {
+    -ms-grid-column: 7;
+    -ms-grid-column-span: 4;
+    grid-column: 7 / span 4;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / span 1;
+  }
+  .gallery__imageBox--fifth {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 10;
+    grid-column: 1 / span 10;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3 / span 1;
+  }
+  .gallery__imageBox--sixth {
+    display: none;
+  }
+  .gallery__imageBox--seventh {
+    display: none;
+  }
+  .calculator__paragraph--left {
+    min-width: 35vw;
+    max-width: 35vw;
+    margin-left: 0rem;
+  }
+  .calculator__rangeInput {
+    width: 60vw;
+  }
+  .calculator__scoreTop, .calculator__scoreBottom, .calculator__scoreSummary {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .calculator__icon--mediumOrderTwo {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-left: 4rem;
+    margin-right: 2rem;
+  }
+  .calculator__icon--mediumOrderOne {
+    margin-right: 4rem;
+    margin-left: 2rem;
+  }
+  .calculator__paragraph--mediumTextRight {
+    text-align: right;
+  }
+  .calculator__paragraph--mediumCenter {
+    max-width: 20vw;
+    min-width: 20vw;
+    text-align: center;
+  }
+  .greenSide {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5rem 2rem;
+  }
+  .greenSide__paragraph {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  .greenSide__heading {
+    font-size: 2.6rem;
+    font-weight: 500;
+    padding: 2rem 0rem;
+  }
+  .greenSide__articleSecound, .greenSide__articleFirst {
+    width: 50%;
+  }
+  .greenSide__articleFirst {
+    margin-right: 3rem;
+  }
+  .greenSide__image {
+    margin-top: 5rem;
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=mainFotowoltaika.css.map */
