@@ -89,6 +89,7 @@ html
         text-transform: uppercase
 
 .greenSide
+    position: relative
     padding: 5rem 2rem
     width: 100%
     display: flex
@@ -100,9 +101,21 @@ html
     &__image
         margin-top: 5rem
         max-width: 100vw
+        border-radius: 20px
 
     &__spanGreen
         color: $greenThree
+
+    &__blob
+        position: absolute
+        top: 10%
+        left: 40%
+        width: 600px
+        height: 700px
+        background-image: url("/image/blob.svg")
+        background-size: cover
+        background-position: center
+        z-index: -1
 
 .informationIcon
     padding: 5rem 0rem
@@ -192,7 +205,42 @@ html
         margin-left: 2rem
 
 
+.panels
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 5rem 2rem
 
+    &__firstArticle
+        width: 100%
+
+    &__secoundArticle
+        width: 100%
+        display: flex
+        justify-content: center
+        align-content: center
+        align-items: center
+        margin-top: 5rem
+
+    &__image
+        width: 80%
+
+    &__unorderList
+        padding-top: 2rem
+        padding-left: 2rem
+        color: $greenFive
+        list-style: "✔"
+
+    &__spanBlack
+        color: black
+        margin-left: 1rem
+
+
+    
+       
+
+    
         
 
 
