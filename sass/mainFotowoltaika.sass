@@ -303,15 +303,146 @@ html
     &__questionBox
         padding: 1rem 0rem
         border-bottom: 1px solid $greenOne
-    
-       
 
-    
-        
+.footer
+    max-width: 100vw
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 5rem 2rem 
+    margin-top: 5rem
+    color: white
+    background-color: #191A1E
 
+    &__wrap
+        max-width: 100vw
+        display: flex
+        flex-direction: column
+        justify-content: center
+        padding: 5rem 2rem 
+        color: white
+        background-color: #191A1E
 
+    &__socialMedia
+        display: flex
+        flex-direction: row
+        justify-content: center
+        margin: 2rem auto
 
+    &__contactForm
+        display: flex
+        flex-direction: column
 
+    &__offer
+        margin: 3rem 0rem    
+
+    &__logo
+        font-size: 3rem
+
+    &__spanContact
+        width: 35%
+        display: inline-block
+        font-size: 2rem
+        text-transform: uppercase
+        font-weight: 400
+
+    &__paragraphContact
+        font-size: 1.4rem
+        font-weight: bold
+        padding: 1rem 0rem
+        border-bottom: 0.1rem solid rgba(223, 218, 218, 0.3)
+        cursor: pointer
+        transition: color 0.5s
+
+        &:hover
+            color: $greenOne
+
+    &__socialMediaSpan
+        font-size: 2rem
+        padding: 1rem
+        background: rgba(223, 218, 218, 0.3)
+        border-radius: 50%
+        width: 50px
+        height: 50px
+        text-align: center
+        margin: 0 1rem
+        cursor: pointer
+        transition: background 0.5s
+
+        &:hover
+            background: $greenOne
+
+    &__textArea
+        width: 100%
+        max-width: 100%
+        min-height: 20vh
+        font-size: 2rem
+        padding: 1rem
+        margin: 0.5rem 0rem
+        background-color: #2b2b2e
+        border: none
+        color: white
+        font-family: 'Poppins', sans-serif
+
+    &__button
+        width: 100%
+        border: none
+        background: #2b2b2e
+        font-weight: 700
+        color: white
+        text-transform: uppercase
+        padding: 1.5rem 4rem
+        font-size: 1.2rem
+        letter-spacing: 0.2rem
+        cursor: pointer
+        transition: background 0.5s
+
+        &:hover
+            background: $greenTwo
+
+    &__input
+        width: 100%
+        font-size: 2rem
+        padding: 1rem
+        margin: 1rem 0rem
+        background-color: #2b2b2e
+        border: none
+        color: white
+
+    &__contactInfo
+        order: 2
+        margin: 5rem 0rem
+
+    &__contactForm
+        order: 3
+
+    &__offer
+        order: 1
+
+.contactForm
+
+    &__paragraph
+        font-size: 3rem
+        color: rgba(223, 218, 218, 0.3)
+        line-height: 3.2rem
+
+.offer
+
+    &__paragraphMain
+        font-size: 3rem
+        color: rgba(223, 218, 218, 0.3)
+        line-height: 3.2rem
+
+    &__paragraph
+        font-size: 2rem
+        padding: 1.5rem 0rem
+        border-bottom: 0.1rem solid rgba(223, 218, 218, 0.3)
+        cursor: pointer
+        transition: letter-spacing 0.5s, color 0.5s
+
+        &:hover
+            letter-spacing: 0.5rem
+            color: $greenOne
 
 @import "./_medium"
 @import "./_large"
