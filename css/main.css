@@ -780,6 +780,9 @@ html {
   .panels__spanBlack {
     color: black;
   }
+  .question {
+    width: 95%;
+  }
 }
 
 .paragraph {
@@ -1117,6 +1120,9 @@ html {
   }
   .panels__spanBlack {
     color: black;
+  }
+  .question {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=main.css.map */
