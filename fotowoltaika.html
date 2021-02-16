@@ -18,7 +18,7 @@
             </article>
             <article class="header__secoundArticle">
                 <p class="header__paragraphTop">Prosta instalacja</p>
-                <h1 class="headingOne header__headingOne">Panele fotowoltaiczne</h1>
+                <h1 class="headingOne header__headingOne">Panele fotowoltaiczne <span class="header__linkBorder"></span></h1>
                 <p class="paragraph paragraph header__paragraph">Proponowane przez nas rozwiązanie to idealny sposób na to, aby ograniczyć dostawy energii elektrycznej na wiele lat, i jednocześnie w znacznym stopniu zmniejszyć rachunki za prąd. Specjalizujemy się w montażu paneli na konstrukcjach dachowych oraz naziemnych. Naszym klientom pomagamy również uzyskac dotację oraz dofinansowanie na instalazje.</p>
             </article>
         </section>
@@ -30,7 +30,19 @@
                 <p class="paragraph greenSide__paragraph">Średni koszt instalacji fotowoltaicznej w Polsce zwraca się po około 7-10 latach, w zalezności od jej ułożenia i wielkości. Dodatkowo, można skorzystać z wielu dotacji oraz ulg, które skracają okrez zwrotu inswestycji nawet do 5 lat!</p>
             </article>
             <article class="greenSide__articleSecound">
-                <div class="greenSide__blob"></div>
+                <div class="greenSide__blob" style="position: absolute; width: 900px;z-index: -1;left:35%;top: -10%">
+                    
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="100%" id="blobSvg">
+                    <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color: rgb(213, 254, 119);"></stop>
+                        <stop offset="100%" style="stop-color: rgb(147, 228, 160);"></stop>
+                    </linearGradient>
+                    </defs>
+                    <path id="blob" d="M427,278Q394,306,381,331.5Q368,357,364.5,415.5Q361,474,311.5,424.5Q262,375,227.5,412.5Q193,450,167,422Q141,394,128.5,363.5Q116,333,61,314.5Q6,296,57.5,260Q109,224,91.5,182.5Q74,141,101.5,115.5Q129,90,165.5,85.5Q202,81,232,102Q262,123,294,110.5Q326,98,358,110Q390,122,390.5,158.5Q391,195,425.5,222.5Q460,250,427,278Z" fill="none" stroke-width="7px" stroke="url(#gradient)"></path>
+                </svg>
+  
+                </div>
                 <img  class="greenSide__image" src="/image/greenSide.jpg" alt="">
             </article>
         </section>
@@ -149,8 +161,8 @@
         </section>
         <section class="panels">
             <article class="panels__firstArticle">
-                <h3 class="headingThree">Corab Encor</h3>
-                <p class="paragraph">Encor to połączenie energii płynącej ze słońca z produktami wykonywanymi z najwyższą starannością. Do naszej oferty wprowadzamy nowe moduły od Corab. Encor to wysoka jakość wykonania, estetyczny wygląd oraz rozsądna cena. Ogniwa monokrystaliczne typu half-cut z najwyższej jakości krzemu. Encor to produkt całkowicie full black. Wyróżnia się idealnie czarną folią kompozytową oraz czarną ramą z anodyzowanego aluminium. Pod względem estetycznym i wydajnościowym zadowolą nawet najbardziej wymagającego inwestora. Liczne badania i testy potwierdziły wysoką jakość oraz spełnienie obowiązujących norm Panele posiadają polską gwarancję!</p>
+                <h3 class="headingThree">Encor</h3>
+                <p class="paragraph">Encor to połączenie energii płynącej ze słońca z produktami wykonywanymi z najwyższą starannością. Encor to wysoka jakość wykonania, estetyczny wygląd oraz rozsądna cena. Ogniwa monokrystaliczne typu half-cut z najwyższej jakości krzemu. Encor to produkt całkowicie full black. Wyróżnia się idealnie czarną folią kompozytową oraz czarną ramą z anodyzowanego aluminium. Pod względem estetycznym i wydajnościowym zadowolą nawet najbardziej wymagającego inwestora. Liczne badania i testy potwierdziły wysoką jakość oraz spełnienie obowiązujących norm Panele posiadają polską gwarancję!</p>
                 <ul class="paragraph panels__unorderList">
                     <li class="panels__listElement"><span class="panels__spanBlack">Ogniwa monokrystaliczne typu half cut</span></li>
                     <li class="panels__listElement"><span class="panels__spanBlack">Orginalne złącza MC4</span></li>
@@ -188,7 +200,7 @@
             <div class="paragraph question__questionBox">
                 <div class="question__question">
                     <div class="question__ask">
-                        <p>Czy montaż instalacji fotowoltaicznej się opłaca?</p>
+                        <p class="question__askParagraph">Czy montaż instalacji fotowoltaicznej się opłaca?</p>
                     </div>
                     <div class="question__icon">
                         <img class="question__image" src="/image/up-arrow.png" alt="">
@@ -201,7 +213,7 @@
             <div class="paragraph question__questionBox">
                 <div class="question__question">
                     <div class="question__ask">
-                        <p>Ile trwa montaż instalacji fotowoltaicznej?</p>
+                        <p class="question__askParagraph">Ile trwa montaż instalacji fotowoltaicznej?</p>
                     </div>
                     <div class="question__icon">
                         <img class="question__image" src="/image/up-arrow.png" alt="">
@@ -214,7 +226,7 @@
             <div class="paragraph question__questionBox">
                 <div class="question__question">
                     <div class="question__ask">
-                        <p>Czy mogę uzyskać dofinansowanie na fotowoltaikę?</p>
+                        <p class="question__askParagraph">Czy mogę uzyskać dofinansowanie na fotowoltaikę?</p>
                     </div>
                     <div class="question__icon">
                         <img class="question__image" src="/image/up-arrow.png" alt="">
@@ -224,10 +236,10 @@
                     <p class="paragraph question__answerParagraph">Aktualnie można składać wnioski o dotację w rządowym programie "Mój prąd", który przewiduje dofinansowanie w wysokości 5000 zł dla instalacji od 2 do 10 kWp. Oczywiście pomożemy złożyć Ci wniosek.</p>
                 </div>
             </div>
-            <div class="paragraph question__questionBox">
+            <!-- <div class="paragraph question__questionBox">
                 <div class="question__question">
                     <div class="question__ask">
-                        <p>Czy przyłączenie instalacji do sieci wiąże się z dodatkowymi opłatami?</p>
+                        <p class="question__askParagraph">Czy przyłączenie instalacji do sieci wiąże się z dodatkowymi opłatami?</p>
                     </div>
                     <div class="question__icon">
                         <img class="question__image" src="/image/up-arrow.png" alt="">
@@ -236,11 +248,11 @@
                 <div class="question__answer">
                     <p class="paragraph question__answerParagraph" style="display:none">Absolutnie nie, energetyka ma obowiązek wymiany licznika na dwukierunkowy i robi to na własny koszt.</p>
                 </div>
-            </div>
+            </div> -->
             <div class="paragraph question__questionBox">
                 <div class="question__question">
                     <div class="question__ask">
-                        <p>Czy energię elektryczną z mojej instalacji mogę wykorzystać do ogrzania domu lub ładowania samochodu elektrycznego?</p>
+                        <p class="question__askParagraph">Czy energię elektryczną z mojej instalacji mogę wykorzystać do ogrzania domu lub ładowania samochodu elektrycznego?</p>
                     </div>
                     <div class="question__icon">
                         <img class="question__image" src="/image/up-arrow.png" alt="">
@@ -253,7 +265,7 @@
             <div class="paragraph question__questionBox">
                 <div class="question__question">
                     <div class="question__ask">
-                        <p>Jak działa instalacja fotowoltaiczna?</p>
+                        <p class="question__askParagraph">Jak działa instalacja fotowoltaiczna?</p>
                     </div>
                     <div class="question__icon">
                         <img class="question__image" src="/image/up-arrow.png" alt="">
