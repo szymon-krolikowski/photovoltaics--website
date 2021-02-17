@@ -30,19 +30,6 @@
                 <p class="paragraph greenSide__paragraph">Średni koszt instalacji fotowoltaicznej w Polsce zwraca się po około 7-10 latach, w zalezności od jej ułożenia i wielkości. Dodatkowo, można skorzystać z wielu dotacji oraz ulg, które skracają okrez zwrotu inswestycji nawet do 5 lat!</p>
             </article>
             <article class="greenSide__articleSecound">
-                <div class="greenSide__blob" style="position: absolute; width: 900px;z-index: -1;left:35%;top: -10%">
-                    
-                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="100%" id="blobSvg">
-                    <defs>
-                    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                        <stop offset="0%" style="stop-color: rgb(213, 254, 119);"></stop>
-                        <stop offset="100%" style="stop-color: rgb(147, 228, 160);"></stop>
-                    </linearGradient>
-                    </defs>
-                    <path id="blob" d="M427,278Q394,306,381,331.5Q368,357,364.5,415.5Q361,474,311.5,424.5Q262,375,227.5,412.5Q193,450,167,422Q141,394,128.5,363.5Q116,333,61,314.5Q6,296,57.5,260Q109,224,91.5,182.5Q74,141,101.5,115.5Q129,90,165.5,85.5Q202,81,232,102Q262,123,294,110.5Q326,98,358,110Q390,122,390.5,158.5Q391,195,425.5,222.5Q460,250,427,278Z" fill="none" stroke-width="7px" stroke="url(#gradient)"></path>
-                </svg>
-  
-                </div>
                 <img  class="greenSide__image" src="/image/greenSide.jpg" alt="">
             </article>
         </section>
@@ -51,17 +38,17 @@
                 <div class="informationIcon__box informationIcon__box--right">
                     <img class="informationIcon__icon" src="/image/icon-clock.png" alt="">
                     <h4 class="headingFour informationIcon__headingFour">Szybki czas realizacji</h4>
-                    <p class="paragraph informationIcon__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae earum qui quod nulla veritatis iste!</p>
+                    <p class="paragraph informationIcon__paragraph">Instalacje fotowoltaiczną zamontujemy nawet w ciągu jednego dnia</p>
                 </div>
                 <div class="informationIcon__box informationIcon__box--right">
                     <img class="informationIcon__icon" src="/image/icon-keys.png" alt="">
                     <h4 class="headingFour informationIcon__headingFour">Łatwa instalacja</h4>
-                    <p class="paragraph informationIcon__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae earum qui quod nulla veritatis iste!</p>
+                    <p class="paragraph informationIcon__paragraph">Instalacje paneli zostaw nam, zrobimy to przede wszystkim poprawnie aby w przyszłości panele się nie uszkodziły</p>
                 </div>
                 <div class="informationIcon__box informationIcon__box--right">
                     <img class="informationIcon__icon" src="/image/icon-money.png" alt="">
                     <h4 class="headingFour informationIcon__headingFour">Dofinansowania do instalacji</h4>
-                    <p class="paragraph informationIcon__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae earum qui quod nulla veritatis iste!</p>
+                    <p class="paragraph informationIcon__paragraph">Pomożemy złożyć Ci wniosek o dotację w programie "Mój prąd"</p>
                 </div>
             </article>
             <article class="informationIcon__secoundArticle">
@@ -71,24 +58,24 @@
                 <div class="informationIcon__box informationIcon__box--left">
                     <img class="informationIcon__icon" src="/image/icon-plug.png" alt="">
                     <h4 class="headingFour informationIcon__headingFour">Czysta energia</h4>
-                    <p class="paragraph informationIcon__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae earum qui quod nulla veritatis iste!</p>
+                    <p class="paragraph informationIcon__paragraph">Energia uzyskana z paneli fotowoltaicznych jest w 100% czystą energią</p>
                 </div>
                 <div class="informationIcon__box informationIcon__box--left">
                     <img class="informationIcon__icon" src="/image/icon-thunder.png" alt="">
-                    <h4 class="headingFour informationIcon__headingFour">Energia odnawialna</h4>
-                    <p class="paragraph informationIcon__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae earum qui quod nulla veritatis iste!</p>
+                    <h4 class="headingFour informationIcon__headingFour">Brak podwyżek prądu</h4>
+                    <p class="paragraph informationIcon__paragraph">Produkując energię ze słońca, redukujesz do minimum koszty związane z podwyżkami cen prądu.</p>
                 </div>
                 <div class="informationIcon__box informationIcon__box--left">
                     <img class="informationIcon__icon" src="/image/icon-water.png" alt="">
                     <h4 class="headingFour informationIcon__headingFour">Mniejsze rachunki</h4>
-                    <p class="paragraph informationIcon__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae earum qui quod nulla veritatis iste!</p>
+                    <p class="paragraph informationIcon__paragraph">Od momentu instalacji fotowoltaicznej zapomnisz czym są rachunki za prąd</p>
                 </div>
             </article>
         </section>
         <section class="calculator">
             <h3 class="headingThree calculator__headingThree">Kalkulator zwrotu inwestycji</h3>
             <p class="paragraph calculator__paragraph--center">Miesięczny rachunek za prąd</p>
-            <input class="calculator__input" type="range">
+            <input class="calculator__input" type="range" min="0" max="1000">
             <h4 class="headingFour calculator__headingFour">Najlepiej dopasowana instalacja</h4>
             <article class="calculator__firstArticle">
                 <div class="calculator__box">
@@ -97,7 +84,7 @@
                     </div>
                     <div class="calculator__text calculator__text-right">
                         <p class="paragraph">Wielkość instalacji</p>
-                        <p class="paragraph"><span class="calculator__spanGreen">5.67 kWp</span></p>
+                        <p class="paragraph"><span class="calculator__spanGreen js-installationSize">5.67 kWp</span></p>
                     </div>
                 </div>
                 <div class="calculator__box">
@@ -106,7 +93,7 @@
                     </div>
                     <div class="calculator__text">
                         <p class="paragraph">W ciągu roku wyprodukujesz</p>
-                        <p class="paragraph"><span class="calculator__spanGreen">5 443 kWh</span></p>
+                        <p class="paragraph"><span class="calculator__spanGreen js-annualProduction">5 443 kWh</span></p>
                     </div>
                 </div>
                 <div class="calculator__box">
@@ -115,7 +102,7 @@
                     </div>
                     <div class="calculator__text calculator__text-right">
                         <p class="paragraph">Koszt instalacji</p>
-                        <p class="paragraph"><span class="calculator__spanGreen">27 969 zł</span></p>
+                        <p class="paragraph"><span class="calculator__spanGreen js-installationCost">27 969 zł</span></p>
                     </div>
                 </div>
                 <div class="calculator__box">
@@ -123,7 +110,7 @@
                         <img class="calculator__icon" src="/image/icon-solarMoney.png" alt="">
                     </div>
                     <div class="calculator__text">
-                        <p class="paragraph">lub od <span class="calculator__spanGreen">22 868 zł</span></p>
+                        <p class="paragraph">lub od <span class="calculator__spanGreen js-installationCostWithDotation">22 868 zł</span></p>
                         <p class="paragraph">z dotacją <span class="calculator__spanGreen">"Mój prąd"</span></p>
                     </div>
                 </div>
@@ -136,7 +123,7 @@
                     </div>
                     <div>
                         <p class="paragraph calculator__summaryParagraph">Roczny rachunek bez instalacji</p>
-                        <p class="paragraph calculator__summaryParagraph"><span class="calculator__spanRed">3 168zł</span></p>
+                        <p class="paragraph calculator__summaryParagraph"><span class="calculator__spanRed js-annualBill">3 168zł</span></p>
                     </div>
                 </div>
                 <div class="calculator__summaryBox">
@@ -145,7 +132,7 @@
                     </div>
                     <div>
                         <p class="paragraph calculator__summaryParagraph">Roczny rachunek z fotowoltaiką</p>
-                        <p class="paragraph calculator__summaryParagraph"><span class="calculator__spanGreen">263,58zł</span></p>
+                        <p class="paragraph calculator__summaryParagraph"><span class="calculator__spanGreen js-annualBillWithInstallation">263,58zł</span></p>
                     </div>
                 </div>
                 <div class="calculator__summaryBox">
@@ -154,7 +141,7 @@
                     </div>
                     <div class="calculator__summaryText">
                         <p class="paragraph calculator__summaryParagraph">Oszczędność przez 25 lat</p>
-                        <p class="paragraph calculator__summaryParagraph"><span class="calculator__spanGreen">52 365zł</span></p>
+                        <p class="paragraph calculator__summaryParagraph"><span class="calculator__spanGreen js-youSave">52 365zł</span></p>
                     </div>
                 </div>
             </article>
@@ -314,5 +301,6 @@
             </div>
         </div>
     </footer>
+    <script src="/js/main.js"></script>
 </body>
 </html>
