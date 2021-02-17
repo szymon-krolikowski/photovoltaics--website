@@ -274,35 +274,66 @@ html
         text-align: center
         margin: 5rem 0rem
 
-    &__question
+    &__accordion 
+        width: 100%
+  
+    &__item 
+        margin: 2rem 0
+
+    &__itemHeader 
         display: flex
-        flex-direction: row
-
-    &__image
-        width: 32px
-
-    &__ask
-        width: 90%
+        align-items: center
+        position: relative
+        cursor: pointer
         margin: 1rem 0rem
-        color: $greenFive
-        font-weight: 700
+        font-weight: 500
 
-    &__answerParagraph
-        margin-top: 2rem
-        width: 90% 
-
-    &__icon
-        width: 10%
+    &__itemHeader::after 
+        content: "\002B"
+        position: absolute
+        font-size: 2rem
         display: flex
         flex-direction: row
         justify-content: center
         align-items: center
         align-content: center
-        padding-left: 2rem
+        right: 1rem
+        width: 28px
+        height: 28px
+        border-radius: 50%
+        background-color: $greenOne
 
-    &__questionBox
-        padding: 1rem 0rem
-        border-bottom: 1px solid $greenOne
+    &__itemBody 
+        max-height: 0
+        overflow: hidden
+        transition: max-height 0.5s ease-out
+
+    &__itemBodyContent 
+        padding: 1rem
+
+    &__linkBorder
+        position: absolute
+        top: 110%
+        left: 0
+        width: 78%
+        height: 3px
+        background: linear-gradient(90deg, $greenOne, transparent)
+
+    &__paragraphBody
+        margin-top: 2rem
+
+    &__paragraphHeader
+        width: 87%
+
+
+.question__itemHeader.active::after 
+  content: "\2212"
+
+
+
+
+  
+
 
 .footer
     max-width: 100vw
@@ -443,6 +474,9 @@ html
         &:hover
             letter-spacing: 0.5rem
             color: $greenOne
+
+
+
 
 @import "./_medium"
 @import "./_large"
